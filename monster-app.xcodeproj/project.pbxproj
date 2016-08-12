@@ -12,6 +12,8 @@
 		B511CCB01D5CCA8900AE6895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B511CCAE1D5CCA8900AE6895 /* Main.storyboard */; };
 		B511CCB21D5CCA8900AE6895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B511CCB11D5CCA8900AE6895 /* Assets.xcassets */; };
 		B511CCB51D5CCA8900AE6895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B511CCB31D5CCA8900AE6895 /* LaunchScreen.storyboard */; };
+		B511CCBD1D5CE8A300AE6895 /* DragImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511CCBC1D5CE8A300AE6895 /* DragImg.swift */; };
+		B511CCBF1D5CF14B00AE6895 /* MonsterImg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B511CCBE1D5CF14B00AE6895 /* MonsterImg.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B511CCB11D5CCA8900AE6895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B511CCB41D5CCA8900AE6895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B511CCB61D5CCA8900AE6895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B511CCBC1D5CE8A300AE6895 /* DragImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImg.swift; sourceTree = "<group>"; };
+		B511CCBE1D5CF14B00AE6895 /* MonsterImg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImg.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		B511CCA91D5CCA8900AE6895 /* monster-app */ = {
 			isa = PBXGroup;
 			children = (
-				B511CCAA1D5CCA8900AE6895 /* AppDelegate.swift */,
-				B511CCAC1D5CCA8900AE6895 /* ViewController.swift */,
-				B511CCAE1D5CCA8900AE6895 /* Main.storyboard */,
+				B511CCBC1D5CE8A300AE6895 /* DragImg.swift */,
+				B511CCBE1D5CF14B00AE6895 /* MonsterImg.swift */,
 				B511CCB11D5CCA8900AE6895 /* Assets.xcassets */,
+				B511CCAE1D5CCA8900AE6895 /* Main.storyboard */,
+				B511CCAC1D5CCA8900AE6895 /* ViewController.swift */,
 				B511CCB31D5CCA8900AE6895 /* LaunchScreen.storyboard */,
 				B511CCB61D5CCA8900AE6895 /* Info.plist */,
+				B511CCAA1D5CCA8900AE6895 /* AppDelegate.swift */,
 			);
 			path = "monster-app";
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B511CCBF1D5CF14B00AE6895 /* MonsterImg.swift in Sources */,
+				B511CCBD1D5CE8A300AE6895 /* DragImg.swift in Sources */,
 				B511CCAD1D5CCA8900AE6895 /* ViewController.swift in Sources */,
 				B511CCAB1D5CCA8900AE6895 /* AppDelegate.swift in Sources */,
 			);
